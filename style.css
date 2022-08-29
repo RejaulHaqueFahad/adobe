@@ -4,6 +4,7 @@
   overflow-x: hidden;
   font-family: "Anek Telugu", sans-serif;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -58,11 +59,19 @@ body {
 }
 .header__right-menu {
   display: flex;
-  cursor: pointer;
+  align-items: center;
   gap: 25px;
 }
-.header__right-text-wrap {
+.header__right-icon {
   font-size: 14px;
   font-weight: 500;
   color: #2c2c2c;
+  line-height: 1;
+}
+.header__right-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c2c2c;
+  line-height: 2;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
