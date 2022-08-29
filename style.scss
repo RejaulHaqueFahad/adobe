@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Anek Telugu', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE200;
+}
+.header{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &__container{
+        max-width: 1440px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &__left-menu{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        cursor: pointer;
+    }
+
+    &__logo-wrap{
+        display: flex;
+        gap: 5px;
+        overflow: hidden;
+    }
+
+    &__logo-image{
+        width: 25px;
+        height: 22px;
+        overflow: hidden;
+    }
+
+    &__logo-text{
+        font-weight: 700;
+        font-size: 18px;
+        color: #FA0F00;
+    }
+
+    &__left-menu-wrap{
+        display: flex;
+        gap: 50px;
+    }
+
+    &__left-menu{
+        font-size: 14px;
+        font-weight: 500;
+        color: #2c2c2c;
+    }
+    
+    &__right-menu{
+        display: flex;
+        cursor: pointer;
+        gap: 25px;
+    }
+
+    &__right-text-wrap{
+        font-size: 14px;
+        font-weight: 500;
+        color: #2c2c2c;
+    }
+}
